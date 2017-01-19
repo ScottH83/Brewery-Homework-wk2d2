@@ -1,0 +1,92 @@
+/*Beer Project Color Scheme*/
+body {
+  width: 360px;
+  position: relative;
+
+}
+/*Header*/
+header {
+  background:rgb(127,62,5);
+  height: ;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+.logo {
+  width: 30%;
+}
+h1 {
+  font-size:
+}
+/*Header > Navigation Bar*/
+/*Main Container*/
+.main {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+
+}
+.logo-1 {
+  width: 100%;
+}
+/*End Main Container*/
+.nav1  {
+  background: rgb(255,164,86);
+  display: block;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 14px 0px 0px 5px;
+  width: 100%;
+  height: 50px;
+}
+.nav1 li {
+  padding: 14px 0px 0px 5px;
+  display: inline;
+}
+.nav1 li:hover {
+    transform: scale(1.5px);
+}
+.nav1 a {
+ background: rgb(255,164,86);
+ text-decoration: none;
+}
+/*Beers on Tap*/
+.beerstap {
+ background: rgb(127,93,62);
+}
+.taps1 {
+  width: 100%;
+  background-size: cover;
+}
+/*End Beer on Tap*/
+/*Contact Info*/
+fieldset {
+  background:rgb(127,62,5);
+  padding: 40px;
+}
+/*Footer*/
+
+.navfooter li {
+  float: right;
+  width: 45px;
+  font-size: 35px;
+}
+footer {
+  float: right;
+  transform: translate(0px,159px);
+  border: 1px solid black;
+  width: 100%;
+}
+/*End of Footer*/
+.brewery-pic {
+  width: 100%;
+}
+/*Social Media Icons*/
+/*Media Queries*/
+@media screen and (max-width: 1224px) {
+  body {
+    width: 100%;
+    background: red;
+  }
+}
