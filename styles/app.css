@@ -2,12 +2,11 @@
 body {
   width: 360px;
   position: relative;
-
+  color: rgb(255, 231, 208);
 }
 /*Header*/
 header {
   background:rgb(127,62,5);
-  height: ;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -17,7 +16,7 @@ header {
   width: 30%;
 }
 h1 {
-  font-size:
+  font-size: 30px;
 }
 /*Header > Navigation Bar*/
 /*Main Container*/
@@ -45,11 +44,15 @@ h1 {
   display: inline;
 }
 .nav1 li:hover {
-    transform: scale(1.5px);
+  background: rgb(224, 113, 13);
+}
+.nav1 li:active {
+  background: rgb(31, 22, 16);
 }
 .nav1 a {
- background: rgb(255,164,86);
- text-decoration: none;
+  color: rgb(255, 231, 208);
+  font-weight: 600px;
+  text-decoration: none;
 }
 /*Beers on Tap*/
 .beerstap {
@@ -87,6 +90,11 @@ footer {
 @media screen and (max-width: 1224px) {
   body {
     width: 100%;
-    background: red;
+    header: 5px;
+  }
+}
+@@media screen and (max-width:768px) {
+  .nav1 li {
+    padding: 15px;
   }
 }
